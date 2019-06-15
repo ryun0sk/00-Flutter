@@ -6,7 +6,7 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
-          title: Text('aaaa'),
+          title: Text('これにステイ'),
           backgroundColor: Colors.blueGrey[900],
         ),
       ),
