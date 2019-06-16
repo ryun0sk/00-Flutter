@@ -6,8 +6,13 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
-          title: Text(' i amd rich '),
+          title: Text('iaaaa'),
           backgroundColor: Colors.blueGrey[900],
+        ),
+        body: Center(
+          child: Image(
+              image: AssetImage('images/a.jpg'),
+          ),
         ),
       ),
     ),
