@@ -1,4 +1,4 @@
-package com.example.flutter02;
+package co.appbrewery.micard;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
