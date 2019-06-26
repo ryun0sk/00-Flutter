@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
             children: <Widget>[
@@ -24,19 +24,67 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: 'Prompt',
                   fontSize: 40,
-                  color: Colors.red,
+                  color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
               ),
               Text(
-                'takagishi',
+                '運だけはいいです',
                 style: TextStyle(
                   fontSize: 20,
-                  color: Colors.teal[200]
+                  color: Colors.teal[100]
                 ),
               ),
-              Container(
-
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+                child: Padding(
+                  padding: EdgeInsets.all(10),
+                  child: Row(
+                    children: <Widget>[
+                      Icon(
+                        Icons.phone,
+                        size: 20,
+                        color: Colors.teal,
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Text(
+                        '080-0000-0000',
+                        style: TextStyle(
+                          color: Colors.teal,
+                          fontSize: 20,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+                child: Padding(
+                  padding: EdgeInsets.all(10),
+                  child: Row(
+                    children: <Widget>[
+                      Icon(
+                        Icons.email,
+                        color: Colors.teal,
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Text(
+                        'aaaaaa@gmail.com',
+                        style: TextStyle(
+                          fontSize: 20,
+                          color: Colors.teal,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
               ),
             ],
           )
